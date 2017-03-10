@@ -2,4 +2,10 @@ body
 {
 	background-color:black;
 	color:white;
+	font-family:helvetica, sans-serif;
+}
+
+h1
+{
+	text-align:center;
 }
