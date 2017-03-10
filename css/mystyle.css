@@ -1,11 +1,18 @@
 body
 {
 	background-color:black;
-	color:white;
+	color:rgb(252,236,119);
 	font-family:helvetica, sans-serif;
 }
 
-h1
+h1.centertext
 {
 	text-align:center;
+}
+
+img.vaultboy
+{
+	display:block;
+	margin:auto;
+	width:50%;
 }
