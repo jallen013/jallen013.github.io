@@ -1,17 +1,14 @@
-var x = 0;
+var menuison = false;
 
-function menuflipper()
+function menuswitch() 
 {
-
-
-	if (x == 0)
-	{
-		document.getElementById ("menu").style.display = "block";
-		x = 1;
-	}
-	else
-	{
-		document.getElementById ("menu").style.display = "none";
-		x = 0;
-	}
+    "use strict";
+    if (menuison === true) {
+        document.getElementById("menu").style.display = "none";
+        menuison = false;
+    } 
+    else {
+        document.getElementById("menu").style.display = "block";
+        menuison = true;
+    }
 }
