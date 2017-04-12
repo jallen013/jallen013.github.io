@@ -2,14 +2,14 @@
 
 var clock_int;													// TODO: LIMIT SPAM CLICKING BUTTONS
 var symbol_int;
-var countup_int;
+var countup_int;												// TODO: REPLACE FLAG VARS WITH CSS REFERENCES
 var countdown_int;
-
-var clock_flag;													// TODO: REPLACE FLAG VARS WITH CSS TRIGGERS
-var symbol_flag;
+																// TODO: REPLACE COLOR VALS WITH REFERENCES
+var clock_flag;													
+var symbol_flag;												// TODO: IMPROVE ON CANCEL BUTTON IN INPUT
 var countup_flag;
-var countdown_flag;
-																// TODO: DEAL W CANCEL BUTTON IN INPUT
+var countdown_flag;												// TODO: FLASH AT COUNTDOWN END
+																
 var blink_var;
 var tic_var;
 
@@ -160,7 +160,11 @@ function countdown() {
 
 			tic_var=prompt("Enter a number of minutes (ex: 2.5).");
 
-			try{
+			if (!tic_var){				// if user clicks cancel in prompt
+				validate = false;
+			}
+
+			try{						// if user enters non-numeric value
 				if (isNaN(tic_var)) throw "";
 			}
 			catch(err) {
@@ -168,7 +172,7 @@ function countdown() {
 			}
 
 			if (validate === true){
-				if (tic_var < 0){
+				if (tic_var < 0){		// if user enters negative numeric value
 					validate = false;
 				}
 			}
@@ -185,7 +189,7 @@ function countdown() {
 
 	tic_var -= 1;
 
-	if (tic_var >= 0)						//TODO: MAKE OUTPUT DIV BACKGROUND FLASH BETWEEN +1 AND -1
+	if (tic_var >= 0)						
 	{
 		document.getElementById("numA").innerHTML = Math.floor(tic_var / 60);
 		if (tic_var % 60 < 10)

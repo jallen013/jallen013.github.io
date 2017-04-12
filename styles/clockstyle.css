@@ -2,18 +2,18 @@
 jcp blue: "#003E77";
 jcp gold: "#BCAD75";
 blue shadow: "#002649";
-gold highlight 1: "#EAE0C8";
-gold highlight 2: "#F5F0E4";
+gold highlight1: "#EAE0C8";
+gold highlight2: "#F5F0E4";
 bright red: "#DC291E";
 dark red: "#753C2A";
 */
-
+/*------------------------------------------------*/
 body{
 	font-family:Droid+Sans+Mono;
 	background-color:#003E77;
 	color:#003E77;
 }
-
+/*------------------------------------------------*/
 button{
 	width:20%;
 	margin:6px;
@@ -33,14 +33,14 @@ button:focus{
 button.pause_btn{
 	width:63%;
 }
-
+/*------------------------------------------------*/
 div.buttons{
 	text-align:center;
 }
 div.output{
-	margin-top:18px;
-	margin-left:auto;
-	margin-right:auto;
+	position:fixed;
+	top:130px;
+	right:10%;
 	border:3px solid #EAE0C8;;
 	border-radius:6px;
 	width:80%;
@@ -49,13 +49,14 @@ div.output{
 	text-shadow:6px 6px 6px #002649;
 	box-shadow:12px 12px 6px #002649;
 }
-
+/*------------------------------------------------*/
 span{
 	font-size:30vw;
 }
-
+/*------------------------------------------------*/
 img.logo{
 	position:fixed;
 	right:6px;
 	width:10%;
 }
+/*------------------------------------------------*/
