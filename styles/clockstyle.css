@@ -1,11 +1,11 @@
 /*
-jcp blue: #003E77;
-jcp gold: #BCAD75;
-blue shadow: # 002649;
-gold highlight 1: #EAE0C8;
-gold highlight 2: #F5F0E4;
-
-darkred: #753C2A;
+jcp blue: "#003E77";
+jcp gold: "#BCAD75";
+blue shadow: "#002649";
+gold highlight 1: "#EAE0C8";
+gold highlight 2: "#F5F0E4";
+bright red: "#DC291E";
+dark red: "#753C2A";
 */
 
 body{
@@ -31,14 +31,14 @@ button:focus{
 	outline:none;
 }
 button.pause_btn{
-	width:64%;
+	width:63%;
 }
 
 div.buttons{
 	text-align:center;
 }
 div.output{
-	margin-top:8px;
+	margin-top:18px;
 	margin-left:auto;
 	margin-right:auto;
 	border:3px solid #EAE0C8;;

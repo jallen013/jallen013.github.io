@@ -2,18 +2,22 @@
 <html>
 <head> 
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono"> 
-	<link rel="stylesheet" type="text/css" href="mystyles/clockstyle.css">
-	<script src="myscripts/clockscript.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/clockstyle.css">
+	<script src="scripts/clockscript.js"></script>
 </head>
+<<<<<<< Updated upstream
 <body onload="reset();">
+=======
+<body onload="reset();","clock();">
+>>>>>>> Stashed changes
 	<img src="images/jcplogo.png" class="logo">
 	<div class="buttons" id="buttons_div">
 		<button onclick="clock();" id="clock_btn">time of day</button>
 		<button onclick="countup();" id="countup_btn">count up</button>
 		<button onclick="countdown();" id="countdown_btn">count down</button>
 	</div>
-	<div class="buttons" id="buttons2_div">
-		<button onclick="pause();" id="pause_btn" class="pause_btn">&nbsp</button>
+	<div class="buttons">
+		<button onclick="pause();" id="pause_btn" class="pause_btn"></button>
 	</div>
 	<div class="output" id="output_div">
 		<span id="numA">88</span>

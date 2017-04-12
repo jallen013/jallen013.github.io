@@ -28,7 +28,7 @@ function reset(){
 	blink_var = true;
 	tic_var = -1;
 
-	document.getElementById("numA").style.color = "#003E77";	// TODO: REPLACE COLORS WITH COLOR REFERENCES
+	document.getElementById("numA").style.color = "#003E77";	
 	document.getElementById("symbol").style.color = "#003E77";
 	document.getElementById("numB").style.color = "#003E77";
 
@@ -155,7 +155,7 @@ function countdown() {
 
 		reset();
 
-		while (validate == false){
+		while (validate === false){
 			validate = true;
 
 			tic_var=prompt("Enter a number of minutes (ex: 2.5).");
@@ -167,7 +167,7 @@ function countdown() {
 				validate = false;
 			}
 
-			if (validate == true){
+			if (validate === true){
 				if (tic_var < 0){
 					validate = false;
 				}
@@ -214,7 +214,6 @@ function countdown() {
 		{
 			document.getElementById("numB").innerHTML = temp % 60 + ")";
 		}
-
 	}
 }
 
@@ -271,7 +270,6 @@ function pause() {
 			document.getElementById("pause_btn").innerHTML = "pause";
 		}
 	}
-
 }
 
 
