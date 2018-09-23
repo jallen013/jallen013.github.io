@@ -9,8 +9,12 @@ body {
 }
 /*-----------------------------------------*/
 div.title {
-	position: relative;
-	left: 34%;
+	display: inline-block;
+	text-align: left;
+	margin: -36;
+}
+div.titleHelper {
+	text-align: center;
 }
 div.background {
 	background-color: #003F77;
@@ -23,7 +27,9 @@ h1 {
 	padding-top: 36px;
 }
 h1._n {
-	font-size: 24px;
+	text-align: center;
+	font-size: 36px;
+	padding-top: 36px;
 }
 
 h3 {
@@ -31,8 +37,13 @@ h3 {
 	margin-top: -36px;
 }
 h3._n {
+	text-align: center;
+	font-size: 36px;
+	margin-top: -24px;
+}
+/*-----------------------------------------*/
+span.subText {
 	font-size: 24px;
-	margin-top: -12px;
 }
 /*-----------------------------------------*/
 table {
@@ -49,7 +60,7 @@ td {
 	border-radius: 24px;
 	background-color: #BCAD75;
 	padding: 6px;
-	font-size: 24px;
+	font-size: 36px;
 	text-align: center;
 	box-shadow: 5px 10px #002c53;
 }
@@ -63,17 +74,21 @@ td.naked {
 	font-size: 12px;
 	box-shadow: none;
 }
-td.double {
-	font-size: 36px;
-}
 td.single {
 	width: 49.5%;
 }
 /*-----------------------------------------*/
-img.shield {
+img.shieldL {
 	position: absolute;
-	left: 20%;
-	top: 10%;
+	left: 15%;
+	top: 8%;
+	width: 12%;
+	max-width: 130px;
+}
+img.shieldR {
+	position: absolute;
+	right: 15%;
+	top: 8%;
 	width: 12%;
 	max-width: 130px;
 }
@@ -88,8 +103,3 @@ footer {
 	color: #BCAD75;
 	font-style: italic;
 }
-
-
-
-
-
