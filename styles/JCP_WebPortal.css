@@ -82,15 +82,15 @@ img.shieldL {
 	position: absolute;
 	left: 15%;
 	top: 8%;
-	width: 12%;
-	max-width: 130px;
+	width: 10%;
+	max-width: 120px;
 }
 img.shieldR {
 	position: absolute;
 	right: 15%;
 	top: 8%;
-	width: 12%;
-	max-width: 130px;
+	width: 10%;
+	max-width: 120px;
 }
 img.social {
 	width: 50%;
