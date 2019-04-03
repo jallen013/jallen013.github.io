@@ -1,0 +1,62 @@
+/*
+jcp blue: "#003E77";
+jcp gold: "#BCAD75";
+blue shadow: "#002649";
+gold highlight1: "#EAE0C8";
+gold highlight2: "#F5F0E4";
+bright red: "#DC291E";
+dark red: "#753C2A";
+*/
+/*------------------------------------------------*/
+body{
+	font-family:Droid+Sans+Mono;
+	background-color:#003E77;
+	color:#003E77;
+}
+/*------------------------------------------------*/
+button{
+	width:20%;
+	margin:6px;
+	padding:6px;
+	border:3px solid #EAE0C8;
+	border-radius:6px;
+	font-family:Droid+Sans+Mono;
+	font-size:18px;
+	font-weight:bold;
+	box-shadow:12px 12px 6px #002649;
+	background-color:#BCAD75;
+	color:#003E77;
+}
+button:focus{
+	outline:none;
+}
+button.pause_btn{
+	width:63%;
+}
+/*------------------------------------------------*/
+div.buttons{
+	text-align:center;
+}
+div.output{
+	position:fixed;
+	top:140px;
+	right:10%;
+	border:3px solid #EAE0C8;;
+	border-radius:6px;
+	width:80%;
+	text-align:center;
+	background-color:#BCAD75;
+	text-shadow:6px 6px 6px #002649;
+	box-shadow:12px 12px 6px #002649;
+}
+/*------------------------------------------------*/
+span{
+	font-size:30vw;
+}
+/*------------------------------------------------*/
+img.logo{
+	position:fixed;
+	right:6px;
+	width:10%;
+}
+/*------------------------------------------------*/
