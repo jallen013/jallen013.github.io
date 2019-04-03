@@ -68,7 +68,7 @@ function exchange() {
 }
 
 function google() {
-    window.open("https://accounts.google.com/");
+    window.open("https://mail.google.com/");
 }
 
 function folio() {
@@ -80,7 +80,7 @@ function paycom() {
 }
 
 function ptcwizard() {
-    window.open("https://jesuitcp.ptcwizard.com/admin/");
+    window.open("https://jesuitcp.ptcwizard.com/teacher/");
 }
 
 function exitticket() {
