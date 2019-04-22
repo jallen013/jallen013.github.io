@@ -1,0 +1,35 @@
+
+body {
+	background-color: #202020;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 0.95vh;
+	min-width: 0.98vw;
+	align-items: center;
+	justify-content: center;
+}
+
+.pic {
+	display: block;
+	height: auto;
+	width: 70%;
+	margin: auto;
+}
+
+.words{
+	background-color: transparent;
+	border: 1px solid #303030;
+	color: #404040;
+	font-size: 24px;
+	text-align: center;
+	outline:none;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+}
+
