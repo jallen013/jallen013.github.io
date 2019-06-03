@@ -9,7 +9,7 @@ body{
 .gridContainer{
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr;
-	grid-template-rows: 18% 8% 1fr;
+	grid-template-rows: 18% 7% 1fr;
 	grid-template-areas:
 		"logo title title"
 		"nav nav nav"
@@ -67,7 +67,6 @@ body{
 	width: 15%;
 }
 
-
 .bannerL{
 	grid-area: lleft;
 	
@@ -89,14 +88,14 @@ body{
 	background-color: white;
 	border-radius: 6px;
 	font-family: 'Ariel', sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 	height: 96%;
 	padding: 3%;
 	width: 94%;
 }
 
 .bodyLarge{
-	font-size: 36px;
+	font-size: 48px;
 	text-align: center;
 }
 
@@ -115,12 +114,12 @@ body{
 /*======================================================*/
 
 @media only screen and (max-width: 700px),
-	/* iphone X */
-		only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3),				
-	/* iphone 6,7,8 */	
-		only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2),
-	/* iphone 6,7,8 plus */
-		only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) and(-webkit-min-device-pixel-ratio: 3){
+/* iphone X */
+	only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3),				
+/* iphone 6,7,8 */	
+	only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2),
+/* iphone 6,7,8 plus */
+	only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) and(-webkit-min-device-pixel-ratio: 3){
 
 	.gridContainer{
 		display: flex;
