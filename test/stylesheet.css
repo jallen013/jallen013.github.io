@@ -114,9 +114,11 @@ body{
 
 /*======================================================*/
 
-@media screen and ((min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)),
-			((min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)),
-			(max-width: 700px){
+@media only screen and (max-width: 700px),
+		only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3),				
+		only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2)
+		{
+
 	.gridContainer{
 		display: flex;
 		flex-direction: column;
