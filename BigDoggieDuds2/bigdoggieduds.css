@@ -2,7 +2,7 @@
 body {
 	background-color: white;
 	font-family: 'Libre Franklin', sans-serif;
-	font-size: 24px;
+	font-size: 30px;
 	color: black;
 	padding: 10px;
 }
@@ -22,25 +22,24 @@ a {
 	background-color: #FFF100;
 	border-radius: 20px 20px 0 0;
 	display: flex;
-	height: 150px;
+	height: 200px;
 	justify-content: space-around;
 }
 .logoPic{
-	height:140px;
+	height:190px;
 }
 .title {
-	height: 140px;
+	height: 160px;
 	padding-top: 24px;
 }
 .maintitle {
 	color: #00ADEF;
-	font-size: 54px;
+	font-size: 60px;
 	font-weight: bold;
 }
 .subtitle {
 	color: black;
-	font-size: 24px;
-	line-height: 20px;
+	line-height: : 18px;
 }
 /*-------------------------------------------------*/
 .nav {
@@ -81,6 +80,10 @@ a {
 }
 /*=================================================*/
 @media only screen and (max-width: 750px) {
+
+	body {
+		font-size: 24px;
+	}
 
 	.title {
 		display: none;
