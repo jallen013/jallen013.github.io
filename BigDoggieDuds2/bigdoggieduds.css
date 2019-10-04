@@ -158,7 +158,7 @@ a.noblock {
 	text-align: right;
 }
 /*=================================================*/
-@media only screen and (max-width: 900px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { {
 
 	.title {
 		display: none;
