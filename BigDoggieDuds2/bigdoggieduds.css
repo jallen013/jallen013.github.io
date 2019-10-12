@@ -16,6 +16,7 @@ a {
 	color: #9400D3;
 	font-weight: bold;
 	display: block;
+	text-align: center;
 }
 a.noblock {
 	display: inline;
