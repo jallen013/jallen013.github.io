@@ -213,6 +213,7 @@ a.noblock {
 	}
 	.socialContainer {
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 	.contactIcon {
 		max-width: auto;
