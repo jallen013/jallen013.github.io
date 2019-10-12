@@ -109,6 +109,7 @@ a.noblock {
 }
 .contactIcon {
 	border-radius: 20px;
+	display: block;
 	width: 100%;
 	max-width: 150px;
 	padding: 10px;
