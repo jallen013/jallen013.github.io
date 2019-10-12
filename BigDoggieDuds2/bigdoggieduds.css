@@ -96,20 +96,27 @@ a.noblock {
 .contCont {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
-.contactSide {
-	width: 50%;
+
+.contactLinks {
+	margin-left: -5%;
+	width: 40%;
 }
+.contactText {
+	width: 60%;
+}
+
 .socialContainer {
 	display: flex;
 	flex-direction: column;
-	margin: auto;
-	width: 50%;
-
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
 }
 .contactIcon {
-	border-radius: 20px;
 	display: block;
+	border-radius: 20px;
 	width: 100%;
 	max-width: 150px;
 	padding: 10px;
@@ -169,8 +176,9 @@ a.noblock {
 }
 
 .mainTextBig {
-	font-size: 60px;
+	font-size: 45px;
 	text-align: center;
+	font-style: italic;
 }
 .mainPic {
 	border-radius: 20px;
@@ -190,7 +198,7 @@ a.noblock {
 	text-align: right;
 }
 /*=================================================*/
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 998px) {
 
 	.title {
 		display: none;
@@ -198,16 +206,16 @@ a.noblock {
 	.contCont {
 		flex-direction: column;
 	}
-	.contactSide {
+	.contactLinks, .contactText {
+		margin-left: 0;
 		width: 100%;
 	}
 	.socialContainer {
 		flex-direction: row;
-		width: 100%;
 	}
 	.contactIcon {
 		max-width: auto;
-		width: 90%;
+		width: 80%;
 	}
 	.shopButton {
 		width: 70%;
