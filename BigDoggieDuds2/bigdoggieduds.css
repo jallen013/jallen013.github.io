@@ -89,6 +89,7 @@ a.noblock {
 	width: 100%;
 }
 .desiCaption {
+	display: none;
 	text-align: right;
 	font-size: 18px;
 }
@@ -117,9 +118,7 @@ a.noblock {
 	margin: auto;
 	width: 80%;
 }
-.contShop {
 
-}
 .shopButton {
 	background-color: #00ADEF;
 	border: 3px solid black;
@@ -139,12 +138,44 @@ a.noblock {
 	margin: auto;
 	width: 90%;
 }
-.sewingPic, .shopPic, .gunnerPic {
+.sewingPic, .shopPic, .contactPic {
 	border-radius: 20px;
 	display: block;
 	margin: auto;
 	width: 100%;
 }
+
+.aboutFlex {
+	display: flex;
+	justify-content: space-between;
+}
+.aboutItemText {
+	padding-right: 5%;
+}
+.aboutItemPics {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.picAbout1 {
+	border-radius: 20px;
+	height: 200px;
+}
+.picAbout2 {
+	border-radius: 20px;
+	height: 200px;
+}
+
+.mainTextBig {
+	font-size: 60px;
+	text-align: center;
+}
+.mainPic {
+	border-radius: 20px;
+	width: 100%;
+}
+
 /*-------------------------------------------------*/
 .tothetop {
 	padding-top: 20px;
@@ -180,4 +211,10 @@ a.noblock {
 	.shopButton {
 		width: 70%;
 	}
+	.picAbout1, .picAbout2 {
+		display: none;
+	}
+
+
+
 }
