@@ -211,13 +211,18 @@ a.noblock {
 	.contCont {
 		flex-direction: column;
 	}
-	.contactLinks, .contactText {
+	.contactLinks {
 		margin-left: 0;
 		width: 100%;
 	}
+
+	.contactText {
+		margin-left: 0;
+		width: 100%;
+	}
+
 	.socialContainer {
-		xflex-direction: row;
-		xflex-wrap: wrap;
+
 		flex-flow: row wrap;
 	}
 	.contactButton {
