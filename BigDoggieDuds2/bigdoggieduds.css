@@ -107,15 +107,21 @@ a.noblock {
 
 .socialContainer {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: center;
-	width: 60%;
+	width: 70%;
 	margin: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
 
+
+}
+
+.socialButton {
+	text-align: center;
+	width: 19%;
 }
 
 .contactIcon {
@@ -124,9 +130,6 @@ a.noblock {
 	padding: 10px;
 }
 
-.phoneBorder {
-	width: 35%;
-}
 
 .shopButton {
 	background-color: #00ADEF;
@@ -223,15 +226,13 @@ a.noblock {
 		width: 100%;
 	}
 
+	.socialContainer {
+		width: 100%;
+		font-size: 12px;	
+	}
+
 	.socialButton {
 		width: 26%;
-	}
-	.socialContainer {
-		flex-flow: row wrap;
-		height: auto;
-		margin-left: 0;
-		width: 100%;
-		
 	}
 	.contactIcon {
 		width: 90%;
