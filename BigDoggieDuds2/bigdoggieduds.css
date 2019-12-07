@@ -98,6 +98,7 @@ a.noblock {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
 }
 
 .contactLinks {
@@ -110,22 +111,19 @@ a.noblock {
 
 .socialContainer {
 	display: flex;
-	flex-direction: column;
+	flex-flow: column nowrap;
 	justify-content: space-around;
 	align-items: center;
 	height: 100%;
 }
-.contactIcon {
-	display: block;
-	border-radius: 20px;
-	width: 100%;
-	max-width: 150px;
-	padding: 10px;
+
+.contactButton {
+
 }
-.map {
+.contactIcon {
 	border-radius: 20px;
-	margin: auto;
-	width: 80%;
+	width: 40%;
+	padding: 10px;
 }
 
 .shopButton {
@@ -177,9 +175,15 @@ a.noblock {
 }
 
 .mainTextBig {
+	background-color: #00ADEF;
+	color: white;
+	border-radius: 20px;
 	font-size: 45px;
+	font-weight: bold;
 	text-align: center;
 	font-style: italic;
+	margin: auto;
+	width: 90%;
 }
 .mainPic {
 	border-radius: 20px;
@@ -212,15 +216,18 @@ a.noblock {
 		width: 100%;
 	}
 	.socialContainer {
-		flex-direction: row;
-		flex-wrap: wrap;
+		xflex-direction: row;
+		xflex-wrap: wrap;
+		flex-flow: row wrap;
+	}
+	.contactButton {
+		width: 26%;
 	}
 	.contactIcon {
-		max-width: auto;
-		width: 80%;
+		width: 90%;
 	}
 	.shopButton {
-		width: 70%;
+		width: 60%;
 	}
 	.picAbout1, .picAbout2 {
 		display: none;
