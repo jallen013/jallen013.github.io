@@ -96,8 +96,8 @@ a.noblock {
 }
 .contCont {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: start;
 
 }
 
@@ -107,19 +107,20 @@ a.noblock {
 
 .socialContainer {
 	display: flex;
-	flex-flow: column nowrap;
+	flex-flow: row nowrap;
 	justify-content: space-around;
 	align-items: center;
-	height: 100%;
+	width: 60%;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
-	margin-left: -5%;
-	width: 40%;
 
 }
 
 .contactIcon {
 	border-radius: 20px;
-	width: 35%;
+	width: 45%;
 	padding: 10px;
 }
 
@@ -227,6 +228,7 @@ a.noblock {
 	}
 	.socialContainer {
 		flex-flow: row wrap;
+		height: auto;
 		margin-left: 0;
 		width: 100%;
 		
