@@ -94,29 +94,35 @@ a.noblock {
 	text-align: right;
 	font-size: 18px;
 }
-.contCont {
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
 
-}
 
 .contactText {
+	width: 100%;
+}
+
+.contactAppointments {
+
+	font-size: 36px;
+}
+
+.contactMapPic {
+	border-radius: 20px;
+	display: block;
+	margin: auto;
 	width: 60%;
 }
 
+
 .socialContainer {
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 	width: 70%;
 	margin: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
-
-
 }
 
 .socialButton {
@@ -126,10 +132,16 @@ a.noblock {
 
 .contactIcon {
 	border-radius: 20px;
-	width: 45%;
+	width: 75%;
 	padding: 10px;
 }
 
+.contactLine {
+	background-color: #00ADEF;
+	height: 3px;
+	margin: auto;
+	width:80%;
+}
 
 .shopButton {
 	background-color: #00ADEF;
@@ -221,14 +233,15 @@ a.noblock {
 		width: 100%;
 	}
 
-	.contactText {
-		margin-left: 0;
+	.contactLine {
+		width: 100%;
+	}
+	.contactMapPic{
 		width: 100%;
 	}
 
 	.socialContainer {
 		width: 100%;
-		font-size: 12px;	
 	}
 
 	.socialButton {
@@ -240,10 +253,12 @@ a.noblock {
 	.shopButton {
 		width: 60%;
 	}
-	.picAbout1, .picAbout2 {
+	.picAbout1 {
 		display: none;
 	}
-
+	.picAbout2 {
+		display: none;
+	}
 
 
 }
