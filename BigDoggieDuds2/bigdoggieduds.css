@@ -176,20 +176,6 @@ a.noblock {
 .aboutItemText {
 	padding-right: 5%;
 }
-.aboutItemPics {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
-.picAbout1 {
-	border-radius: 20px;
-	height: 200px;
-}
-.picAbout2 {
-	border-radius: 20px;
-	height: 200px;
-}
 
 .mainTextBig {
 	background-color: #00ADEF;
@@ -254,12 +240,7 @@ a.noblock {
 	.shopButton {
 		width: 60%;
 	}
-	.picAbout1 {
-		display: none;
-	}
-	.picAbout2 {
-		display: none;
-	}
+
 
 
 }
