@@ -248,6 +248,7 @@ a.noblock {
 		width: 26%;
 	}
 	.contactIcon {
+		max-width: 150px;
 		width: 90%;
 	}
 	.shopButton {
